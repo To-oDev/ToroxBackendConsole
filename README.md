@@ -1,6 +1,6 @@
 # 💡 Torox Systems Simulator
 
-Simulación de gestión de sistemas tecnológicos para una ciudad futurista: **ToroxCity**.
+Simulación de gestión de sistemas tecnológicos para **ToroxCity**.
 
 Este proyecto está escrito en Java puro y orientado a practicar programación orientada a objetos (POO), incluyendo:
 - Clases abstractas
@@ -14,10 +14,10 @@ Este proyecto está escrito en Java puro y orientado a practicar programación o
 ## 🔧 Estructura del Proyecto
 
 - `SistemaTorox.java`: clase abstracta base con lógica común para todos los sistemas.
-- `SistemaSeguridad.java`: subclase con atributo de nivel de amenaza.
-- `SistemaTransporte.java`: subclase con cantidad de unidades de transporte.
+- `SistemaSeguridad.java`: subclase con atributo de nivel de seguridad.
+- `SistemaTransporte.java`: subclase con cantidad de unidades de transporte activas.
 - `SistemaEnergia.java`: subclase con tipo de fuente energética.
-- `GestorDeSistemas.java`: clase que permite crear, almacenar, listar y controlar sistemas.
+- `GestorDeSistemas.java`: clase que permite crear, almacenar, listar y editar sistemas.
 - `Main.java`: punto de entrada, menú en consola para interactuar con el sistema.
 
 ---
@@ -29,23 +29,23 @@ Este proyecto está escrito en Java puro y orientado a practicar programación o
 3. Usa el menú para:
     - Crear sistemas personalizados
     - Visualizar los sistemas registrados
+    - Eliminar o editar sistemas registrados
 
 ---
 
 ## ✅ Requisitos
 
 - Java 8 o superior
-- (Opcional) Maven, si deseas convertirlo en proyecto con dependencias más adelante
 
 ---
 
-## 🧪 Ideas para extender
+## 🧪 Funciones
 
-- Permitir edición de sistemas por ID
-- Permitir eliminación
-- Persistencia de datos con archivos o base de datos
-- Conexión con un frontend o juego como Roblox
+- Permite edición de sistemas por ID y por nombre
+- Permite eliminación de sistemas por ID y por nombre
+- Persistencia de datos con archivos o base de datos (por implementar)
+- Conexión con un frontend o juego como Roblox (por implementar)
 
 ---
 
-**Este proyecto simula la lógica base de un backend y sirve como demostración para perfiles Java Jr. orientados a desarrollo de sistemas.**
+**Este proyecto simula la lógica base de un backend y sirve como demostración para perfil Java Jr. orientado a desarrollo de sistemas.**
